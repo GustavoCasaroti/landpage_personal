@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GustavoCasaroti – GitHub Profile</title>
+  <link rel="icon" id="favicon" type="image/svg+xml">
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Loading -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">Carregando perfil...</p>
+  </div>
+
+  <!-- Main Content -->
+  <div id="mainContent" class="container" style="display:none;">
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-left">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          AVAILABLE FOR WORK
+        </div>
+        <div class="hero-greeting">Hi there, I'm <em>Gustavo</em> 👋</div>
+        <div class="hero-title">Fullstack Web Developer · Computer Forensic Student</div>
+      </div>
+      <img id="avatar" class="avatar" src="" alt="Avatar" />
+    </div>
+
+    <!-- About Card -->
+    <div class="about">
+      <div class="card">
+        <div class="section-label">// about me</div>
+        <ul>
+          <li><span class="dot"></span>💻 Fullstack Web Developer focused on modern web solutions</li>
+          <li><span class="dot"></span>🎓 Studying <strong>Computer Forensic, Ethical Hacking and Cybersecurity</strong>
+          </li>
+          <li><span class="dot"></span>🚀 Building projects with <strong>PHP,</strong> <strong>Laravel</strong> and
+            <strong>React Native</strong></li>
+          <li><span class="dot"></span>⚡ Always exploring new worlds</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div class="social-section">
+      <div class="card">
+        <div class="section-label">// connect with me</div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/gustavo-casaroti/" target="_blank" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+            LinkedIn
+          </a>
+          <a href="https://www.instagram.com/ferreira.kuji" target="_blank" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+            </svg>
+            Instagram
+          </a>
+          <a href="https://github.com/GustavoCasaroti" target="_blank" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="tools-section">
+      <div class="card">
+        <div class="section-label">// languages &amp; tools</div>
+        <div class="tools-grid">
+          <div class="tool-tag"><span class="tool-dot" style="background:#E34F26"></span>HTML5</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#563D7C"></span>CSS3</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#F0DB4F"></span>JavaScript</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#339933"></span>Node.js</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#000000"></span>Next.js</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#DD0031"></span>AngularJS</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#61DAFB"></span>React Native</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#777BB4"></span>PHP</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#FF2D20"></span>Laravel</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#21759B"></span>WordPress</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#4479A1"></span>MySQL</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#F05032"></span>Git</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#2496ED"></span>Docker</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#000000"></span>Vercel</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#00fae5"></span>WebStorm</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#007ACC"></span>VS Code</div>
+          <div class="tool-tag"><span class="tool-dot" style="background:#0078D6"></span>Windows</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Stats -->
+    <div class="stats-section">
+      <div class="grid-2">
+
+        <!-- GitHub Stats -->
+        <div class="card">
+          <div class="section-label">// github stats</div>
+          <div class="stats-inner">
+            <div class="stats-list">
+              <div class="stat-item">
+                <span class="stat-label">⭐ Total Stars</span>
+                <span class="stat-value stat-stars" data-target="0">0</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">📦 Repos Públicos</span>
+                <span class="stat-value stat-repos" data-target="0">0</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">👥 Seguidores</span>
+                <span class="stat-value stat-followers" data-target="0">0</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">🔭 Seguindo</span>
+                <span class="stat-value stat-following" data-target="0">0</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">🍴 Total Forks</span>
+                <span class="stat-value stat-forks" data-target="0">0</span>
+              </div>
+            </div>
+            <div class="ring-container">
+              <svg class="ring-svg" width="80" height="80" viewBox="0 0 80 80">
+                <defs>
+                  <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#7c6af7" />
+                    <stop offset="100%" style="stop-color:#f7606a" />
+                  </linearGradient>
+                </defs>
+                <circle class="ring-bg" cx="40" cy="40" r="35" />
+                <circle class="ring-fg" cx="40" cy="40" r="35" />
+              </svg>
+              <span class="ring-label">G</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="card">
+          <div class="section-label">// most used languages</div>
+          <div class="lang-bar-wrap">
+            <div class="lang-combined-bar">
+              <div class="lang-loading">Loading...</div>
+            </div>
+          </div>
+          <div class="lang-list"></div>
+        </div>
+
+      </div>
+
+      <!-- Repos recentes -->
+      <div class="card" style="margin-top: 0;">
+        <div class="section-label">// recent repositories</div>
+        <div id="reposList" class="repos-list"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
