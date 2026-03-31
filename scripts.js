@@ -7,6 +7,7 @@ const HEADERS = { 'Accept': 'application/vnd.github+json' };
 const LANG_COLORS = {
   JavaScript:       '#F0DB4F',
   TypeScript:       '#007ACC',
+  'Tailwind':       '#38B2AC',
   PHP:              '#777BB4',
   Python:           '#3776AB',
   HTML:             '#E34F26',
@@ -26,7 +27,6 @@ const LANG_COLORS = {
   Git:              '#F05032',
   Docker:           '#2496ED',
   Vercel:           '#000000',
-  WebStorm:         '#00fae5',
   'VS Code':        '#007ACC',
   Windows:          '#0078D6'
 };
